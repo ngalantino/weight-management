@@ -2,8 +2,19 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
 
-export const HeaderSection = styled("header")`
-  padding: 1rem 0.5rem;
+interface  HeaderSectionProps {
+  $isScrolled: boolean;
+}
+
+export const HeaderSection = styled("header")<HeaderSectionProps>`
+  padding:  ${props => props.$isScrolled ? "0.3rem 1rem" : "1.5rem 1rem"};
+  transition: padding .2s ease-in-out 0.2s;
+  background-color: #F1F5F9;
+  box-shadow: 0 2px 0 0 #f0f0f0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 
   .ant-row-space-between {
     align-items: center;
@@ -58,7 +69,8 @@ export const Menu = styled("h5")`
 `;
 
 export const CustomNavLinkSmall = styled(NavLink)`
-  font-size: 1.2rem;
+  font-size: 1.0rem;
+  font-weight: bold;
   color: #18216d;
   transition: color 0.2s ease-in;
   margin: 0.5rem 2rem;
@@ -88,8 +100,9 @@ export const Span = styled("span")`
   &:hover,
   &:active,
   &:focus {
-    color: rgb(255, 130, 92);
+    color: green;
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    // text-decoration: green underline;
+    font-size: 1.2rem;
   }
 `;

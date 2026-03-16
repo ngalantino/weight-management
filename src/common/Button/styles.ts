@@ -13,13 +13,12 @@ export const StyledButton = styled("button")<{ color?: string }>`
   margin-top: 0.625rem;
   max-width: 180px;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 16px 30px rgb(23 31 114 / 20%);
+  box-shadow: 0 3px 10px rgb(23 31 114 / 20%);
 
   &:hover,
-  &:active,
-  &:focus {
+  &:active {
     color: #fff;
-    border: 1px solid rgb(255, 130, 92);
-    background-color: rgb(255, 130, 92);
+    border: 1px solid green;
+    background-color: green;
   }
 `;
