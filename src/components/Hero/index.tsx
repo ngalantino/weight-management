@@ -1,12 +1,16 @@
-import { lazy } from "react";
+import { lazy, ReactNode } from "react";
 import { HeroSection } from "./styles";
-import HeroContentBlock from "../HeroContentBlock";
 
-export default function Hero() {
+
+interface HeroProps {
+    children: ReactNode;
+}
+
+export default function Hero({ children }: HeroProps) {
 
     return (
         <HeroSection>
-            <HeroContentBlock />
+            { children }
         </HeroSection>
     );
 }

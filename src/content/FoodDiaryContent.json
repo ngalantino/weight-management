@@ -1,0 +1,14 @@
+{
+  "title": "Food Diary",
+  "text": "Download and use this food diary to support your healthy living program.",
+  "button": [
+    {
+      "title": "Download food diary",
+      "hyperlink": "/FoodDiary.pdf"
+    },
+    {
+      "title": "Record keeping guidance",
+      "hyperlink": "/RecordKeeping.pdf"
+    }
+  ]
+}

@@ -56,6 +56,11 @@ export const ButtonWrapper = styled("div")`
     max-width: 80%;
   }
 
+  @media (max-width: 767px) {
+    /* Mobile: Centered */
+    justify-content: center;
+  }
+
   button:last-child {
     margin-left: 20px;
   }

@@ -21,4 +21,5 @@ export const StyledButton = styled("button")<{ color?: string }>`
     border: 1px solid green;
     background-color: green;
   }
+
 `;

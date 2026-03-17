@@ -1,4 +1,5 @@
 import { lazy } from "react";
+import { HeroContentWrapper } from "./styles";
 import HeroContent from "../../content/HeroContent.json";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
@@ -25,25 +26,29 @@ export default function HeroContentBlock() {
             loop={true}>
 
             <SwiperSlide>
-                <ContentBlock
-                    direction="right"
-                    title={HeroContent.slide1.title}
-                    content={HeroContent.slide1.text}
-                    button={HeroContent.slide1.button}
-                    icon="woman-in-water.png"
-                    id="intro"
-                />
+                <HeroContentWrapper>
+                    <ContentBlock
+                        direction="right"
+                        title={HeroContent.slide1.title}
+                        content={HeroContent.slide1.text}
+                        button={HeroContent.slide1.button}
+                        icon="woman-in-water.png"
+                        id="intro"
+                    />
+                </HeroContentWrapper>
             </SwiperSlide>
 
             <SwiperSlide>
-                <ContentBlock
-                    direction="right"
-                    title={HeroContent.slide2.title}
-                    content={HeroContent.slide2.text}
-                    button={HeroContent.slide2.button}
-                    icon="apple.png"
-                    id="intro"
-                />
+                <HeroContentWrapper>
+                    <ContentBlock
+                        direction="right"
+                        title={HeroContent.slide2.title}
+                        content={HeroContent.slide2.text}
+                        button={HeroContent.slide2.button}
+                        icon="apple.png"
+                        id="intro"
+                    />
+                </HeroContentWrapper>
             </ SwiperSlide>
 
         </Swiper>
