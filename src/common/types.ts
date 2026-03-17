@@ -5,6 +5,7 @@ export interface ContainerProps {
 }
 
 export interface ButtonProps {
+  style?: React.CSSProperties;
   color?: string;
   name?: string;
   children: React.ReactNode;

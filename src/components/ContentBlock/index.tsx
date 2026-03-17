@@ -57,18 +57,36 @@ const ContentBlock = ({
                         item: {
                           color?: string;
                           title: string;
+                          hyperlink?: string;
+                          textColor?: string;
+                          scrollTo?: string;
                         },
                         id: number
                       ) => {
-                        return (
-                          <Button
-                            key={id}
-                            color={item.color}
-                            onClick={() => scrollTo("about")}
-                          >
-                            {t(item.title)}
-                          </Button>
-                        );
+                        if (item.hyperlink) {
+                          return (
+                            <Button
+                              key={id}
+                              color={item.color}
+                              style={{ color: `${item.textColor}` }}
+                              onClick={() => window.open(`${item.hyperlink}`, "_blank", "noopener, noreferrer")}
+                            >
+                              {t(item.title)}
+                            </Button>
+                          );
+                        } else {
+                          return (
+
+                            <Button
+                              key={id}
+                              color={item.color}
+
+                              onClick={() => scrollTo(`${item.scrollTo}`)}
+                            >
+                              {t(item.title)}
+                            </Button>
+                          );
+                        }
                       }
                     )}
                 </ButtonWrapper>

@@ -1,0 +1,25 @@
+{
+    "slide1": {
+        "title": "Healthy living begins here.",
+        "text": "Our philosophy is rooted in an integrated approach to wellness, bridging the gap between physical health and emotional wellbeing.",
+        "button": [
+            {
+                "title": "Learn more",
+                "scrollTo": "about"
+            }
+        ]
+    },
+
+    "slide2": {
+        "title": "Do you know your BMI?",
+        "text": "Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.",
+        "button": [
+            {
+                "title": "Calculate your BMI",
+                "hyperlink": "https://www.nhlbi.nih.gov/calculate-your-bmi",
+                "color": "green",
+                "textColor": "white"
+            }
+        ]
+    }
+}
