@@ -57,7 +57,7 @@ export const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Motiva Sans Bold', serif;
+        
         color: #18216d;
         font-size: 56px;
         line-height: 1.18;

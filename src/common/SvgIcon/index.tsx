@@ -6,7 +6,7 @@ import { StyledSvgIcon } from './styles';
 export const SvgIcon = ({ src, width, height, translateY }: SvgIconProps) => (
 
   <StyledSvgIcon 
-    src={`/img/svg/${src}`} 
+    src={`/weight-management/img/svg/${src}`} 
     alt={src} 
     width={width} 
     height={height}

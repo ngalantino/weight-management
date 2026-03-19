@@ -7,7 +7,7 @@ import Router from "./router";
 import i18n from "./translation";
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="weight-management">
     <I18nextProvider i18n={i18n}>
       <Router />
     </I18nextProvider>
