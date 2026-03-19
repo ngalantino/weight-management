@@ -4,11 +4,11 @@
   "button": [
     {
       "title": "Download food diary",
-      "hyperlink": "/FoodDiary.pdf"
+      "hyperlink": "/weight-management/FoodDiary.pdf"
     },
     {
       "title": "Record keeping guidance",
-      "hyperlink": "/RecordKeeping.pdf"
+      "hyperlink": "/weight-management/RecordKeeping.pdf"
     }
   ]
 }
