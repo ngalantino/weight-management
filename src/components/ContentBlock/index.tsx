@@ -25,6 +25,7 @@ const ContentBlock = ({
   t,
   id,
   direction,
+  translateY
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
@@ -43,7 +44,7 @@ const ContentBlock = ({
           direction={direction}
         >
           <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
+            <SvgIcon src={icon} width="100%" height="100%" translateY={translateY} />
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
@@ -107,7 +108,7 @@ const ContentBlock = ({
                             <Col key={id} span={11}>
                               <SvgIcon
                                 src={item.icon}
-                                width="60px"
+                                width="px"
                                 height="60px"
                               />
                               <MinTitle>{t(item.title)}</MinTitle>

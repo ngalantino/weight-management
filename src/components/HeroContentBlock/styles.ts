@@ -19,8 +19,7 @@ export const HeroContentWrapper = styled.div`
     p {
     font-size: 1rem;
     text-align: justify;
-    }
-    
+    }    
 
   }
 `;

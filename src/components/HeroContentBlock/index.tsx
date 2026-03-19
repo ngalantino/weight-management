@@ -32,8 +32,9 @@ export default function HeroContentBlock() {
                         title={HeroContent.slide1.title}
                         content={HeroContent.slide1.text}
                         button={HeroContent.slide1.button}
-                        icon="woman-in-water.png"
+                        icon="woman-in-water2.png"
                         id="intro"
+                        translateY={85}
                     />
                 </HeroContentWrapper>
             </SwiperSlide>
@@ -47,6 +48,7 @@ export default function HeroContentBlock() {
                         button={HeroContent.slide2.button}
                         icon="apple.png"
                         id="intro"
+                        translateY={90}
                     />
                 </HeroContentWrapper>
             </ SwiperSlide>
