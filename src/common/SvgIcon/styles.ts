@@ -13,7 +13,7 @@ export const StyledSvgIcon = styled.img<{ $translateY?: number }>`
   /* 2. Mobile Override */
   @media (max-width: 768px) {
     /* Hardcode a smaller "hangover" for mobile */
-    transform: translateY(20px); 
+    transform: translateY(0px); 
     
     /* OR: Scale it by 50% if you prefer math: */
     /* transform: translateY(${props => (props.$translateY || 0) * 0.5}px); */

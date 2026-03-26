@@ -34,7 +34,7 @@ const Header = ({ t }: { t: TFunction }) => {
     };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
+        <CustomNavLinkSmall onClick={() => scrollTo("programs")}>
           <Span>{t("Healthy Living Programs")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
@@ -45,10 +45,10 @@ const Header = ({ t }: { t: TFunction }) => {
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => window.open("https://locicerohealth.com/about/contact-us/", "_blank", "noopener,noreferrer")}
         >
           <Span>
-            <Button>{t("Contact")}</Button>
+            <Button >{t("Contact")}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>

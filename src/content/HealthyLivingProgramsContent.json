@@ -1,0 +1,30 @@
+{
+    "title": "",
+    "text": "",
+    "section": [
+        {
+            "title": "Nutrition & lifestyle optimization",
+            "content": "Guidance on healthy food choices with a focus on sustainable, real-world eating habits.",
+            "icon": "shopping-cart.svg",
+            "hyperlink": "https://locicerohealth.com"
+        },
+        {
+            "title": "Behavioral & habit change",
+            "content": "Development of a healthy relationship with food.",
+            "icon": "yoga.svg",
+            "hyperlink": "https://locicerohealth.com"
+        },
+        {
+            "title": "Physical activity guidance",
+            "content": "Realistic, individualized activity plans with a focus on consistency over intensity.",
+            "icon": "activity-tracker.svg",
+            "hyperlink": "https://locicerohealth.com"
+        },
+        {
+            "title": "Medical weight loss options",
+            "content": "FDA approved weight loss medications, including GLP-1s and sympathomimetic amines.",
+            "icon": "medical-weight-loss.svg",
+            "hyperlink": "https://locicerohealth.com/medical-care/weight-management/weight-loss-medications/"
+        }
+    ]
+}

@@ -17,6 +17,8 @@ export const Content = styled("p")`
 export const StyledRow = styled(Row)`
   flex-direction: ${({ direction }: { direction: string }) =>
     direction === "left" ? "row" : "row-reverse"};
+
+  scroll-margin-top: 125px;
 `;
 
 export const ContentWrapper = styled("div")`
@@ -32,6 +34,15 @@ export const ServiceWrapper = styled("div")`
   display: flex;
   justify-content: space-between;
   max-width: 100%;
+
+  @media screen and (max-width: 768px) {
+    .ant-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; /* Centers the text of MinTitle and MinPara */
+    }
+  }
 `;
 
 export const MinTitle = styled("h6")`
@@ -64,4 +75,21 @@ export const ButtonWrapper = styled("div")`
   button:last-child {
     margin-left: 20px;
   }
+`;
+
+export const ItemWrapper = styled("div")`
+  /* 1. Add padding so the background doesn't touch the icons */
+  padding: 20px; 
+  
+  /* 2. Setup the transition for a smooth "fade-in" effect */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer; /* Makes it feel like a clickable feature */
+  border-radius: 12px; /* Rounded corners */
+
+  /* 3. The Hover State */
+  &:hover {
+    background-color: #f5f5f5; /* Light gray */
+    transform: translateY(-5px); /* Optional: slight lift effect */
+  }
+
 `;

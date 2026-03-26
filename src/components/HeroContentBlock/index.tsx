@@ -53,6 +53,20 @@ export default function HeroContentBlock() {
                 </HeroContentWrapper>
             </ SwiperSlide>
 
+            <SwiperSlide>
+                <HeroContentWrapper>
+                    <ContentBlock
+                        direction="right"
+                        title={HeroContent.slide3.title}
+                        content={HeroContent.slide3.text}
+                        button={HeroContent.slide3.button}
+                        icon="glp-1.png"
+                        id="intro"
+                        translateY={90}
+                    />
+                </HeroContentWrapper>
+            </ SwiperSlide>
+
         </Swiper>
 
     );

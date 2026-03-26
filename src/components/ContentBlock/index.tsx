@@ -14,6 +14,7 @@ import {
   MinPara,
   StyledRow,
   ButtonWrapper,
+  ItemWrapper,
 } from "./styles";
 
 const ContentBlock = ({
@@ -93,7 +94,7 @@ const ContentBlock = ({
                 </ButtonWrapper>
               ) : (
                 <ServiceWrapper>
-                  <Row justify="space-between">
+                  <Row justify="space-between" gutter={[0, 36]}>
                     {typeof section === "object" &&
                       section.map(
                         (
@@ -101,18 +102,21 @@ const ContentBlock = ({
                             title: string;
                             content: string;
                             icon: string;
+                            hyperlink: string;
                           },
                           id: number
                         ) => {
                           return (
-                            <Col key={id} span={11}>
-                              <SvgIcon
-                                src={item.icon}
-                                width="px"
-                                height="60px"
-                              />
-                              <MinTitle>{t(item.title)}</MinTitle>
-                              <MinPara>{t(item.content)}</MinPara>
+                            <Col key={id} span={11} xs={24} md={11}>
+                              <ItemWrapper onClick={() => window.open(`${item.hyperlink}`, "_blank", "noopener,noreferrer")}>
+                                <SvgIcon
+                                  src={item.icon}
+                                  width="px"
+                                  height="150px"
+                                />
+                                <MinTitle>{t(item.title)}</MinTitle>
+                                <MinPara>{t(item.content)}</MinPara>
+                              </ItemWrapper>
                             </Col>
                           );
                         }

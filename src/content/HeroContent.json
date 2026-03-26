@@ -21,5 +21,16 @@
                 "textColor": "white"
             }
         ]
+    },
+
+    "slide3": {
+        "title": "The GLP-1 solution",
+        "text": "Medical weight loss has advanced. At LoCicero Health, we use evidence‑based medications within a physician‑supervised program to support sustainable results.",
+        "button": [
+            {
+                "title": "Learn more",
+                "hyperlink": "https://locicerohealth.com/medical-care/weight-management/weight-loss-medications/"
+            }
+        ]
     }
 }
