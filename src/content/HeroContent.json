@@ -5,7 +5,7 @@
         "button": [
             {
                 "title": "Learn more",
-                "scrollTo": "about"
+                "hyperlink": "https://locicerohealth.com/medical-care/weight-management"
             }
         ]
     },

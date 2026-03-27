@@ -1,14 +1,16 @@
 import { lazy } from "react";
-import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import HealthyLivingPrograms from "../../content/HealthyLivingProgramsContent.json";
 import FoodDiaryContent from "../../content/FoodDiaryContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import OnlineSupport from "../../content/OnlineSupport.json";
+import TeamContent from "../../content/TeamContent.json";
 import Hero from "../../components/Hero";
 import HeroContentBlock from "../../components/HeroContentBlock";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
+const Team = lazy(() => import ("../../components/Team"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
@@ -31,18 +33,19 @@ const Home = () => {
           icon="britney-karon.jpg"
           id="programs"
         />
-        <MiddleBlock
+        {/* <MiddleBlock
           title={MiddleBlockContent.title}
           content={MiddleBlockContent.text}
           button={MiddleBlockContent.button}
-        />
+        /> */}
 
         <ContentBlock
-          direction="left"
-          title={ProductContent.title}
-          content={ProductContent.text}
-          icon="waving.svg"
-          id="product"
+          direction="right"
+          title={OnlineSupport.title}
+          content={OnlineSupport.text}
+          button={OnlineSupport.button}
+          icon="laptop.png"
+          id="online-support"
         />
       </Container>
       <Hero>
@@ -57,13 +60,20 @@ const Home = () => {
         />
         </Container>
       </Hero>
-      <Container>
+      {/* <Container>
         <Contact
           title={ContactContent.title}
           content={ContactContent.text}
           id="contact"
         />
-      </Container>
+      </Container> */}
+
+      <Team
+        title = {TeamContent.title} 
+        content = {TeamContent.content}
+        staff = {TeamContent.staff}
+        id = "team"
+      />
     </>
   );
 };

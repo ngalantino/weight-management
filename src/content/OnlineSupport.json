@@ -1,0 +1,14 @@
+{
+    "title": "Online Support",
+    "text": "A secure, private, HIPAA-compliant online platform, our Patient Portal gives you access to your personal health information. For established weight management patients, web visits with video are available for weekly, bimonthly, or monthly appointments to review your progress.",
+    "button": [
+        {
+            "title": "Patient portal",
+            "hyperlink": "https://locicerohealth.com/my-lmg/patient-portal/"
+        },
+        {
+            "title": "Guardian telehealth",
+            "hyperlink": "https://locicerohealth.com/my-lmg/telehealth-with-guardian/"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Weight Management Team",
+    "content": "Meet the multidisciplinary team behind our Weight Management program.",
+    "staff": [
+        {
+            "name": "Karon LoCicero, MD",
+            "bio": "",
+            "photo": "karon_locicero.webp"
+        },
+        {
+            "name": "Abigail Zamora",
+            "bio": "",
+            "photo": "abigail_zamora.JPG"
+        }
+    ]
+}
