@@ -24,7 +24,7 @@ const Team = ({ title, content, staff, id }: TeamProps) => {
             <Col xs={24} sm={12} lg={8} key={index}>
               <StaffCard>
                 <div className="avatar-wrapper">
-                  <MemberAvatar src={`/weight-management/img/svg/${member.photo}`} alt={member.name} />
+                  <MemberAvatar src={`/img/svg/${member.photo}`} alt={member.name} />
                 </div>
                 <MemberName>{member.name}</MemberName>
                 <MemberBio>{member.bio}</MemberBio>
