@@ -78,6 +78,11 @@ export const ButtonWrapper = styled("div")`
 `;
 
 export const ItemWrapper = styled("div")`
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;    /* Center children horizontally */
+  text-align: center;     /* Ensure text inside MinTitle/MinPara is centered */
+
   /* 1. Add padding so the background doesn't touch the icons */
   padding: 20px; 
   

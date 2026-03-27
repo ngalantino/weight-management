@@ -111,7 +111,7 @@ const ContentBlock = ({
                               <ItemWrapper onClick={() => window.open(`${item.hyperlink}`, "_blank", "noopener,noreferrer")}>
                                 <SvgIcon
                                   src={item.icon}
-                                  width="px"
+                                  width="auto"
                                   height="150px"
                                 />
                                 <MinTitle>{t(item.title)}</MinTitle>
