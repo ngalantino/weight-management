@@ -8,9 +8,24 @@
             "photo": "karon_locicero.webp"
         },
         {
-            "name": "Abigail Zamora",
+            "name": "Britney Galantino, MD",
+            "bio": "",
+            "photo": "britney_galantino.jpg"
+        },
+        {
+            "name": "Abigail Zamora, PA",
             "bio": "",
             "photo": "abigail_zamora.JPG"
+        },
+        {
+            "name": "Codi Velastagui, MSN, FNP-C",
+            "bio": "",
+            "photo": "codi_velastegui.png"
+        },
+        {
+            "name": "Marina England, PA",
+            "bio": "",
+            "photo": "marina_england.webp"
         }
     ]
 }

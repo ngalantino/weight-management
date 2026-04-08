@@ -168,3 +168,14 @@ export const LanguageSwitchContainer = styled("div")`
   justify-content: space-between;
   width: 85px;
 `;
+
+export const FooterLink = styled("a")`
+  transition: color 0.3s ease;
+  font-weight: bold;
+
+  &:hover {
+    // text-decoration: underline;
+    // text-underline-offset: 5px;
+    color: green;
+  }
+`;
