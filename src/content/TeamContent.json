@@ -22,7 +22,7 @@
             "bio": "Physical Therapy",
             "photo": "chandler_horkman.png"
         },
-                {
+        {
             "name": "Elizabeth Straka, APRN-C",
             "bio": "Primary Care",
             "photo": "elizabeth_straka.webp"
@@ -31,6 +31,11 @@
             "name": "Marina England, PA",
             "bio": "Behavioral Health",
             "photo": "marina_england.webp"
+        },
+        {
+            "name": "Marisa Cifuentes, APRN-C",
+            "bio": "Primary Care",
+            "photo": "marisa-cifuentes.png"
         }
     ]
 }
