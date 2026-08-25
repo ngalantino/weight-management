@@ -4,32 +4,32 @@
     "staff": [
         {
             "name": "Karon LoCicero, MD",
-            "bio": "",
+            "bio": "Primary Care",
             "photo": "karon_locicero.webp"
         },
         {
             "name": "Britney Galantino, MD",
-            "bio": "",
+            "bio": "Behavioral Health",
             "photo": "britney_galantino.jpg"
         },
         {
             "name": "Shani V. Davis, PhD, ANP-BC, CDCES",
-            "bio": "",
+            "bio": "Primary Care",
             "photo": "shani_davis.png"
         },
         {
             "name": "Chandler Horkman, DPT",
-            "bio": "",
+            "bio": "Physical Therapy",
             "photo": "chandler_horkman.png"
         },
                 {
             "name": "Elizabeth Straka, APRN-C",
-            "bio": "",
+            "bio": "Primary Care",
             "photo": "elizabeth_straka.webp"
         },
         {
             "name": "Marina England, PA",
-            "bio": "",
+            "bio": "Behavioral Health",
             "photo": "marina_england.webp"
         }
     ]

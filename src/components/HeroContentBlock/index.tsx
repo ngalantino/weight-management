@@ -29,6 +29,20 @@ export default function HeroContentBlock() {
                 <HeroContentWrapper>
                     <ContentBlock
                         direction="right"
+                        title={HeroContent.slide4.title}
+                        content={HeroContent.slide4.text}
+                        button={HeroContent.slide4.button}
+                        icon="weight-management-bg.jpg"
+                        id="intro"
+                        translateY={0}
+                    />
+                </HeroContentWrapper>
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <HeroContentWrapper>
+                    <ContentBlock
+                        direction="right"
                         title={HeroContent.slide1.title}
                         content={HeroContent.slide1.text}
                         button={HeroContent.slide1.button}

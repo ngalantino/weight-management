@@ -9,7 +9,6 @@
             }
         ]
     },
-
     "slide2": {
         "title": "Do you know your BMI?",
         "text": "Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.",
@@ -22,10 +21,19 @@
             }
         ]
     },
-
     "slide3": {
         "title": "The GLP-1 solution",
         "text": "Medical weight loss has advanced. At LoCicero Health, we use evidence‑based medications within a physician‑supervised program to support sustainable results.",
+        "button": [
+            {
+                "title": "Learn more",
+                "hyperlink": "https://locicerohealth.com/medical-care/weight-management/weight-loss-medications/"
+            }
+        ]
+    },
+    "slide4": {
+        "title": "Weight Management & Metabolic Health",
+        "text": "At LoCicero Health, we offer a comprehensive, physician-guided weight management program designed to help you lose weight safely, effectively, and sustainably.",
         "button": [
             {
                 "title": "Learn more",
